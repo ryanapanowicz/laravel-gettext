@@ -415,16 +415,6 @@ You can update only the files of a single domain with the same command:
 
 Sometimes when you edit/add translations on PO files the changes does not appear instantly. This is because the gettext cache system holds content. The most quick fix is restart your web server.
 
-### 6. Contributing
-
-If you want to help with the development of this package, you can:
-
-- Warn about errors that you find, in issues section
-- Send me a pull request with your patch
-- Fix my disastrous English in the documentation/comments ;-)
-- Make a fork and create your own version of laravel-gettext
-- Give a star!
-
 
 ### 7. Upgrade from 4.*
 If you're upgrading from the 4.*, the one for Laravel 5.3.*, you need to refactor your usage of the ``__`` method.
